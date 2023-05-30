@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=Application
+Icon=classes_components
+Name=classes_components
+Exec=/usr/bin/sailjail -p classes_components.desktop /usr/bin/classes_components
+# translation example:
+# your app name in German locale (de)
+#
+# Remember to comment out the following line, if you do not want to use
+# a different app name in German locale (de).
+Name[de]=classes_components
+
+[X-Sailjail]
+Permissions=Audio;Calendar;Camera;Contacts;Documents;Downloads;Email;Internet;Messages;Microphone;Music;Phone;Pictures;Videos
+OrganizationName=ru.test
+ApplicationName=classes_components

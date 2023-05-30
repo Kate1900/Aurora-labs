@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=Application
+Icon=canvas
+Name=canvas
+Exec=/usr/bin/sailjail -p canvas.desktop /usr/bin/canvas
+# translation example:
+# your app name in German locale (de)
+#
+# Remember to comment out the following line, if you do not want to use
+# a different app name in German locale (de).
+Name[de]=canvas
+
+[X-Sailjail]
+Permissions=Accounts;Ambience;AppLaunch;ApplicationInstallation;Audio;Bluetooth;Calendar;CallRecordings;Camera;CommunicationHistory;Contacts;Documents;Downloads;Email;Internet;Location;MediaIndexing;Messages;Microphone;Music;NFC;Phone;Pictures;PublicDir;RemovableMedia;Synchronization;UserDirs;Videos;WebView
+OrganizationName=ru.test
+ApplicationName=canvas
