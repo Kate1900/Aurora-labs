@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=Application
+Icon=counter_1_0
+Name=counter_1_0
+Exec=/usr/bin/sailjail -p counter_1_0.desktop /usr/bin/counter_1_0
+# translation example:
+# your app name in German locale (de)
+#
+# Remember to comment out the following line, if you do not want to use
+# a different app name in German locale (de).
+Name[de]=counter_1_0
+
+[X-Sailjail]
+Permissions=Audio;Calendar;Camera;Contacts;Documents;Downloads;Email;Internet;Messages;Microphone;Music;Phone;Pictures;Videos
+OrganizationName=ru.test
+ApplicationName=counter_1_0
